@@ -4,10 +4,11 @@ desc: "Functions, print vs. return, Memory Stack"
 ready: true
 pdfurl: ""
 lecture_date: 2019-01-22
+reading: 
 ---
 
 * A reminder to read through labs, lecture notes, and homework readings thoroughly- these often contain most of the information you should need for a particular assignment
- * The labs will only get harder as the course progresses, so it's important to read carefully 
+ * The labs will only get harder as the course progresses, so it's important to read carefully
  * Reading the textbook sections is crucial!
  * Good practice to review code in lecture notes and the book and run it yourself
 * Office hours will remain the same for now (found on the course website), so use them to your advantage
@@ -23,7 +24,7 @@ lecture_date: 2019-01-22
   * Start with a skeleton program, make sure you declare and initialize all the variables you need
   * If you are performing the same process multiple times, you know you need a loop
     * Determine what expression and variables the loop depends on, and how/where to change your variables to reach your stopping case
-    
+
 ## While Loops
 
 General syntax of a while loop:
@@ -40,7 +41,7 @@ while (BOOLEAN_EXPRESSION) {
 		* at the end of the loop, go back to `while`.
 	* If false, the statements in the loop will not execute.
 		* the program execution after the loop continues.
-		
+
 ## Example
 
 ```
@@ -112,7 +113,7 @@ for (INITIALIZATION; BOOLEAN_EXPRESSION; UPDATE) {
 		* exit the loop and resume program execution.
 
 * Can initialize your index variable as a regular variable, or directly in your loop declaration: `for(int i=0; i<x; i++)`
-    * The index variable can have any name- it simply determines how many times the `for` loop will repeat 
+    * The index variable can have any name- it simply determines how many times the `for` loop will repeat
 
 ## Example
 
@@ -186,7 +187,7 @@ If that gives enough information to determine the final value of the expression 
 cout.setf(ios::fixed);
 cout.setf(ios::showpoint);
 cout.precision(2); // prints two decimal spaces for floating point values.
-```	
+```
 
 # Example: A number guessing game
 
@@ -504,8 +505,3 @@ int main() {
 ```
 
 * `main` prints the result of `quadrupleValue` return value. Program exits.
-
-
-
-
-

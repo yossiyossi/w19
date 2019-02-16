@@ -4,6 +4,7 @@ desc: "References, Pointers, Passing Parameters to functions, Structs"
 ready: true
 pdfurl: "https://drive.google.com/open?id=1qG48RYFvB7VVEU7yP3eCkG8KRVA9KtYw"
 lecture_date: 2019-02-14
+reading: Sections 4.5, 5.2, 7.2, 9.1, 10.1
 ---
 
 To be updated with more notes...

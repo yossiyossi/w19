@@ -6,4 +6,5 @@ pdfurl: /lectures/CS16_Lecture12.pdf
 annotatedpdfurl: /lectures/CS16_Lecture12_ann.pdf
 annotatedready: false
 lecture_date: 2019-02-19
+reading: 
 ---

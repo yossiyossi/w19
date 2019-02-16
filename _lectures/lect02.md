@@ -4,6 +4,7 @@ desc: " Hello World! + unix, vim and git"
 ready: true
 pdfurl: https://drive.google.com/drive/folders/1qG48RYFvB7VVEU7yP3eCkG8KRVA9KtYw?usp=sharing
 lecture_date: 2019-01-10
+reading: 
 ---
 
 # Basic Unix Commands
@@ -18,25 +19,25 @@ used to print the working directory - displays the full path
 `ls` lists the contents of a directory; if no directory is specified, it will list the contents of the current directory
 
 
-`ls -l` 
-lists the contents of a directory, and provides additional information about the file/directory; 
+`ls -l`
+lists the contents of a directory, and provides additional information about the file/directory;
 distinguishes between files and directories (if the line starts with the letter ‘d’, then it corresponds to a directory, if not, then it corresponds to a file)
 
-`mv [src] [dest]` 
-move a file/directory called `src` to a file/directory called `src` 
+`mv [src] [dest]`
+move a file/directory called `src` to a file/directory called `src`
 
 `rm [file]`
 deletes/removes a file (use with caution because it deletes files irrecoverably)
 
 `rm -r [dir]`
-recursively deletes the contents of a directory ; 
+recursively deletes the contents of a directory ;
 if you use only `rm` for a directory, the operating system will complain and display the error message: `cannot remove [dir]: Is a directory`
 
 `mkdir [name]`
 make a new directory called `name`
 
 `mkdir -p [level1/level2/...]`
-allows you to create a series of nested directories 
+allows you to create a series of nested directories
 
 `cd`
 used to change directory you are currently located in
@@ -70,7 +71,7 @@ https://ucsb-cs16.github.io/topics/vim_basic_eight/
 * The vim (editor) survival skills
 * Writing, compiling and running a C++ program (hello world) program
 * Breaking down the hello world program
-* Code anywhere and everywhere with git 
+* Code anywhere and everywhere with git
 
 # Programming in the unix environment
 * Unix is an operating system just like Windows and Mac OS
@@ -182,5 +183,3 @@ return 0;
 * Important to comment code for communication with others working with your code!
 * `//` denotes a single-line comment.
 * `/* */` denotes a multi-line comment.
-
-

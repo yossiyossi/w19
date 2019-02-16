@@ -4,6 +4,7 @@ desc:  "Variables and types, expressions, control structures (if-else), output "
 ready: true
 pdfurl: "https://drive.google.com/drive/folders/1qG48RYFvB7VVEU7yP3eCkG8KRVA9KtYw?usp=sharing"
 lecture_date: 2019-01-15
+reading: 
 ---
 
 Used no slides for this lecture; mostly live coding.
@@ -36,7 +37,7 @@ As the first midterm draws near, make sure to take advantage of all resources av
 
 #### Labs
 * ~~If you have made duplicate submissions for lab00 through both  umail@ucsb.edu and @ucsb.edu, the ucsb.edu submission will be graded. If you only made one submission, it will be graded regardless of which email you used.~~
-    * Updated 1/16: Prof. K notified Gradescope of the duplication, and the accounts have been merged. 
+    * Updated 1/16: Prof. K notified Gradescope of the duplication, and the accounts have been merged.
 
 Autograder will be enabled for all labs so be sure to make sure your code passes all test cases before submitting to receive full credit.
 If your program is failing the autograder and you are absolutely sure that the program does what it is supposed to, post any issues you may have on piazza so potential fixes can be made to the autograder if needed.
@@ -52,7 +53,7 @@ Homework will be turned in through Gradescope.
 * The current homework and the next homework assignment cover chapters 1 and 2
 
 Can turn in either by:
-* printing out the homework, scanning your work, and digitizing 
+* printing out the homework, scanning your work, and digitizing
 * directly type your answers on the pdf and submit
 
 
@@ -94,7 +95,7 @@ For example, if 0 was an acceptable value, then you may not notice there was an 
 _PRO TIP / Best practice_: make your variable names relevant to what they do (random names for your variables is a big NO-NO).
 Naming them with something that indicates what the variable is used for makes your code mode readable and maintainable.
 
-_C++ shortcut_: 
+_C++ shortcut_:
 To increment the value of a numeric variable by 1, simply add ++ to it. E.g.,
 ```c++
                     int count = 7;
@@ -155,7 +156,7 @@ bool x = 3 != 2;  // x = 1
 &&  // boolean AND; Returns false if either expression is false, e.g., "false && true" returns false; otherwise, returns true
 ||  // boolean OR; Returns true if either expression is true, e.g., "false && true" returns true; otherwise, returns false
 ```
-  
+
   * Example
 
 ```c++
@@ -177,7 +178,7 @@ x = x || y    // x = true
 ```c++
 if (BOOLEAN_EXPRESSION) {
   // code1
-} 
+}
 else {
   // code2
 }
@@ -190,13 +191,13 @@ else {
 int x = 4;
 if ((x > 3) && (x < 6)) {
   cout << "x is either 4 or 5" << endl;
-} 
+}
 else {
   cout << "x is not 4 or 5" << endl;
 }
 ```
 
-* Notice the curly braces, i.e. "{ ... }", also known as block statements. 
+* Notice the curly braces, i.e. "{ ... }", also known as block statements.
   * This allows many statements to be executed.
   * Without "{ ... }", only the following statement will be considered as part of that condition's block, and other statements are considered outside the block statement.
   * Example
@@ -215,7 +216,7 @@ if ((x > 3) && (x < 6))
   cout << "2" << endl; // outside if block
   cout << "3" << endl; // outside if block
 ```
-  
+
   * The last two statements will always execute because they are considered outside of the code block.
   * A syntax error will appear if you try to insert an `else` after the statements since `else` can only be used after an `if` code block.
   * Note that the syntax is **NOT** `elif`, like it is in Python; you need to write out `else if() {...}`
@@ -363,5 +364,3 @@ int main() {
     return 0;
 }
 ```
-
-

@@ -3,11 +3,12 @@ num: "lect07"
 desc: "Midterm preparation and overview / More functions and debugging"
 ready: true
 pdfurl: ""
-lecture_date: 2019-01-29 
+lecture_date: 2019-01-29
+reading: 
 ---
 The midterm is this Thursday, January 31st! It will take place **during the lecture time you are enrolled in** and will cover everything up through this lecture. You are allowed one sheet of notes, written or typed. **Please show up 5 to 10 minutes early! The exam will start at exactly 3:30 or 6:30 sharp!**
 
-See the lecture slides for the list of topics on the exam, as well as the practice problems and solutions presented during lecture. 
+See the lecture slides for the list of topics on the exam, as well as the practice problems and solutions presented during lecture.
 
 ### Here are some problems to expect:
 **Note that this list is not comprehensive, and you should be comfortable with any material discussed in lectures, homeworks, and labs.**
@@ -17,12 +18,12 @@ See the lecture slides for the list of topics on the exam, as well as the practi
 
 * Code Completion
 	* Given a few lines of a program and its output, fill in the missing lines
-	
+
 * Bug Hunting:
 	* Given a piece of code, find all the errors. We will tell you how many errors to look for.
 	* Make sure to check edge cases and precedence or operations in loops and boolean statements
 		* Edge cases = the extreme cases, such as the first and last numbers used in a loop
-		
+
 * Block Placement:
 	* What is the proper order to place "blocks" of code in?
 	* Notes on functions:
@@ -79,7 +80,7 @@ int main(int argc, char *argv[])
 	* Compile-time: When a program fails to compile.
 		* Syntax errors are a commong example of this- if you are missing a semicolon or a bracket {}, or have a misspelling somewhere that the compiler cannot understand, then the compilation will fail and no executable will be created.
 	* Run-time errors: Using invalid operations in code
-		* The compiler doesn't check if you are using valid data or operations when it creates the executable. Run time errors occur when your program crashes after trying to execute an invalid operation (dividing by 0, for example).	
+		* The compiler doesn't check if you are using valid data or operations when it creates the executable. Run time errors occur when your program crashes after trying to execute an invalid operation (dividing by 0, for example).
 	* Logic errors: Not the expected output
 		* These errors are the trickiest to find, because the program compiles and runs normally but doesn't behave as it was intended to. Common logic errors are: Dividing by the wrong number (programming in the wrong math), being off by one in your loop indices (too high or too low), and mistakes in boolean logic (if-else statements, while-loop tests, etc)
 
@@ -124,5 +125,3 @@ int main()
 	return 0;
 }
 ```
-
-

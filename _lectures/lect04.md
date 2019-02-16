@@ -4,6 +4,7 @@ desc: "User Input; Repetition with loops"
 ready: true
 pdfurl: "https://drive.google.com/drive/folders/1qG48RYFvB7VVEU7yP3eCkG8KRVA9KtYw?usp=sharing"
 lecture_date: 2019-01-17
+reading: 
 ---
 
 # User Input; Repetition with loops
@@ -113,7 +114,7 @@ or
 
 ## Unix command in action
 
-`rm _filename_` removes a file. 
+`rm _filename_` removes a file.
 
 E.g., "`rm a.out`". If a Vim session was closed while editing a file, next time you open that file, you might get an error. One way to address the error is to remove its `.swp` file (e.g., for a file called `for.cpp`, you'd run "`rm .for.cpp.swp`" (note: you might lose your changes)).
 
@@ -429,4 +430,3 @@ int main() {
 ### Practice
 
 Take a look at the slide "Nested for loops – ASCII art!" and test if you can write the code on your own.
-
